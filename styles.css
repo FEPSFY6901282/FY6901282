@@ -3,6 +3,11 @@ p {
   text-align: center;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding-top: 50px; /* To avoid content being hidden behind navbar */
+}
 
 h1 {
   text-align:center; font-family:Georgia;
