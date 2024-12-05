@@ -6,7 +6,7 @@ p {
 body {
     font-family: Arial, sans-serif;
     background-color: #c9d6f9;
-    padding-top: 50px; /* To avoid content being hidden behind navbar */
+    padding-top: 70px; /* To avoid content being hidden behind navbar */
 }
 
 h1 {
@@ -30,7 +30,7 @@ section {
   float: left;
   color: black;
   text-align: center;
-  padding: 50px 20px;
+  padding: 70px 10px;
   text-decoration: none;
   font-size: 18px;
 }
