@@ -16,10 +16,10 @@ h1 {
 .navbar {
   
  
-  margin: 20px 0;
+  
   position: sticky;
   top : 50px;
-  color: #989ce0;
+  background-color: #989ce0;
  
 }
 
