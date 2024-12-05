@@ -15,8 +15,9 @@ h1 {
 
 .navbar {
   
+ 
+  padding: 15px;
   position: fixed;
-  
   background-color: red;
  
 }
