@@ -5,7 +5,7 @@ p {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: red;
+    background-color: #444;
     padding-top: 50px; /* To avoid content being hidden behind navbar */
 }
 
