@@ -17,7 +17,7 @@ h1 {
   
  
   
-  position: fixed;
+  position: sticky;
   background-color: red;
  
 }
