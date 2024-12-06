@@ -128,7 +128,7 @@ This graph shows the growth of parameters in Deep Learning-based language models
     	const TwoCount = displayWordCount("Two_txt");
     	const ThreeCount = displayWordCount("Three_txt");
     	// Calculate the sum of all selected sections
-    	const totalWordCount = OneCount;
+    	const totalWordCount = OneCount + TwoCount + ThreeCount + IntroductionCount;
     	// Display the total word count
     	document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   	}
