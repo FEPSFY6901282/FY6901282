@@ -3,6 +3,14 @@ p {
   text-align: center;
 }
 
+table {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 10px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
 body {
     font-family: Arial, sans-serif;
     background-color: #c9d6f9;
