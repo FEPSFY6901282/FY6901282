@@ -4,9 +4,6 @@ p {
 }
 
 .table {
-      font-family: Arial, sans-serif;
-      background-color: red;
-      color: black;
       padding: 100px;
       border-radius:10px;
       
@@ -14,7 +11,7 @@ p {
     }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: font-family:Georgia ;
     background-color: #c9d6f9;
      
 }
