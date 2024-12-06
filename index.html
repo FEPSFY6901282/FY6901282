@@ -5,6 +5,40 @@
    <body>
    <head>
 	<link rel="stylesheet" href="styles.css"/>
+	<!-- Placeholder for total word count -->
+	<p id="totalWordCount"></p>
+	<hr>
+
+	<script>
+	  // Function to calculate and display word count for a specified section
+	  function displayWordCount(sectionId,outputId) {
+	    // Get the text content from the specified section
+	    const text = document.getElementById(sectionId).textContent;
+	    // Split text into words based on spaces and filter out any empty strings
+	    const wordArray = text.trim().split(/\s+/);
+	    // Count the words
+	    return wordArray.length;
+	  }
+	
+	  // Function to calculate and display total word count from selected sections
+	  function displayTotalWordCount() {
+	    // Calculate word count for each section and accumulate the total
+	    const IntroductionCount = displayWordCount("Introduction_txt");
+	    const OneCount = displayWordCount("One_txt");
+	    const TwoCount = displayWordCount("Two_txt");
+	    const ThreeCount = displayWordCount("Three_txt");
+	    const ConclusionCount = displayWordCount("Conclusion_txt"); // Add this line
+	
+	    // Calculate the sum of all selected sections
+	    const totalWordCount = IntroductionCount + OneCount + TwoCount + ThreeCount + ConclusionCount;
+	
+	    // Display the total word count
+	    document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
+	  }
+	
+	  // Run the function for specific sections and display total count when the page loads
+	  window.onload = displayTotalWordCount;
+	</script>
  
 	<img src="WebBanner.png" alt="Banner" width="1200" height="300" padding: 50px; >
 	<h2><b>ENG0018 Computer Laboratory 2024/25</b></h2>
@@ -162,40 +196,7 @@
 		
 	
 
-	<!-- Placeholder for total word count -->
-	<p id="totalWordCount"></p>
-	<hr>
 
-	<script>
-	  // Function to calculate and display word count for a specified section
-	  function displayWordCount(sectionId) {
-	    // Get the text content from the specified section
-	    const text = document.getElementById(sectionId).textContent;
-	    // Split text into words based on spaces and filter out any empty strings
-	    const wordArray = text.trim().split(/\s+/);
-	    // Count the words
-	    return wordArray.length;
-	  }
-	
-	  // Function to calculate and display total word count from selected sections
-	  function displayTotalWordCount() {
-	    // Calculate word count for each section and accumulate the total
-	    const IntroductionCount = displayWordCount("Introduction_txt");
-	    const OneCount = displayWordCount("One_txt");
-	    const TwoCount = displayWordCount("Two_txt");
-	    const ThreeCount = displayWordCount("Three_txt");
-	    const ConclusionCount = displayWordCount("Conclusion_txt"); // Add this line
-	
-	    // Calculate the sum of all selected sections
-	    const totalWordCount = IntroductionCount + OneCount + TwoCount + ThreeCount + ConclusionCount;
-	
-	    // Display the total word count
-	    document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
-	  }
-	
-	  // Run the function for specific sections and display total count when the page loads
-	  window.onload = displayTotalWordCount;
-	</script>
 	
    </head>
    </body>
