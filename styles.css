@@ -3,13 +3,13 @@ p {
   text-align: center;
 }
 
-#table {
+.table {
       font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
+      background-color: White;
       padding: 30px;
       border-radius: 10px;
       margin-bottom: 20px;
-      color: white;
+      
     }
 
 body {
