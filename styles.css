@@ -7,16 +7,16 @@ p {
       font-family: Arial, sans-serif;
       background-color: red;
       color: black;
-      padding: 50px;
+      
       border-radius:10px;
-      margin-bottom: 10px;
+      
       
     }
 
 body {
     font-family: Arial, sans-serif;
     background-color: #c9d6f9;
-    padding-top: 50px; 
+     
 }
 
 h1 {
