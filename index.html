@@ -115,8 +115,10 @@
 	    const text = document.getElementById(sectionId).textContent;
 	    // Split text into words based on spaces and filter out any empty strings
 	    const wordArray = text.trim().split(/\s+/);
+	
 	    // Count the words
-	    return wordArray.length;
+	    const wordCount= wordArray.length;
+	    return wordCount;
 	  }
 	
 	  // Function to calculate and display total word count from selected sections
@@ -138,6 +140,7 @@
 	  // Run the function for specific sections and display total count when the page loads
 	  window.onload = displayTotalWordCount;
 	</script>
+	   
 	<section id="References">
         	<h1>References</h1>
 		<p>Rosset, C. (2020). Turing-NLG: A 17-billion-parameter language model by Microsoft. [online] Microsoft Research. Available at: https://www.microsoft.com/en-us/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft/</p>
