@@ -6,9 +6,10 @@ p {
 table {
       font-family: Arial, sans-serif;
       background-color: #f4f4f4;
-      padding: 10px;
+      padding: 30px;
       border-radius: 8px;
       margin-bottom: 20px;
+      color: white;
     }
 
 body {
