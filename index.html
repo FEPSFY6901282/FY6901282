@@ -114,10 +114,9 @@
     	const text = document.getElementById(sectionId).textContent;
     	// Split text into words based on spaces and filter out any empty strings
     	const wordArray = text.trim().split(/\s+/);
-    	// Count the words
-    	const wordCount = wordArray.length;
+    	
     	// Return the word count for summing purposes
-    	return wordCount;
+    	return wordArray.length;
   	}
   	// Function to calculate and display total word count from selected sections
   	function displayTotalWordCount() {
@@ -127,7 +126,7 @@
     	const TwoCount = displayWordCount("Two_txt");
     	const ThreeCount = displayWordCount("Three_txt");
     	// Calculate the sum of all selected sections
-    	const totalWordCount = Introduction_txt;
+    	const totalWordCount = IntroductionCount;
     	// Display the total word count
     	document.getElementById("totalWordCount").innerText = `Total word count: ${totalWordCount}`;
   	}
