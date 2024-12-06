@@ -16,7 +16,7 @@ p {
 body {
     font-family: Arial, sans-serif;
     background-color: #c9d6f9;
-    padding-top: 70px; /* To avoid content being hidden behind navbar */
+    padding-top: 50px; 
 }
 
 h1 {
@@ -27,7 +27,7 @@ h1 {
   position: sticky;
   top: 0;
   height:100;
-  background-color:#989ce0;
+  background-color:#989ce0 !important;
  
 }
 
